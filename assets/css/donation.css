@@ -1,165 +1,271 @@
-.donation-bg{
-    background: url("../images/donation-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 660px;
+.donation-bg {
+  background: url("../images/donation-bg.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 660px;
 }
 
-.banner-content{
-    text-align: center;
-    display: grid;
-    place-items: center;
+/* banner section */
+
+.banner-content {
+  text-align: center;
+  display: grid;
+  place-items: center;
 }
 
-.banner-sub-content{
-    margin: 0 auto;
-    max-width: 70%;
+.banner-sub-content {
+  margin: 0 auto;
+  max-width: 70%;
 }
 
-h1{
-    margin: 0;
+h1 {
+  margin: 0;
 }
 
-.donation-banner-heading{
-    color: #133541;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 35px;
+.donation-banner-heading {
+  color: #133541;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 35px;
 }
 
-.sm-border{
-    background: #E76A32;
-    width: 80px;
-    height: 4px;
-    margin: 0 auto;
+.sm-border {
+  background: #e76a32;
+  width: 80px;
+  height: 4px;
+  margin: 0 auto;
 }
 
-.ycm-head{
-    color: #E76A32;
-    font-size: 26px;
-    font-weight: 600;
-    margin-top: 40px;
+.ycm-head {
+  color: #e76a32;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 40px;
 }
 
-.ycm-content{
-    color: #133541;
-    font-size: 18px;
+.ycm-content {
+  color: #133541;
+  font-size: 18px;
 }
 
-.wds-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    color: #FFFCF4;
+/* banner section end */
+
+/* why donate section */
+
+.wds-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  color: #fffcf4;
 }
 
-.donation-parent{
-    background-color: #FFFCF4;
+.donation-parent {
+  background-color: #fffcf4;
 }
 
-.donation-child{
-    width: 70%;
-    padding: 70px 0;
-    margin: 0px auto;
+.donation-child {
+  width: 70%;
+  padding: 70px 0;
+  margin: 0px auto;
 }
 
-.wds-one{
-    background: #133541;
+.wds-one {
+  background: #133541;
 }
 
-.wds-two{
-    background: #E76A32;
+.wds-two {
+  background: #e76a32;
 }
 
-.wds-common{
-    position: relative;
-    padding: 30px;
+.wds-common {
+  position: relative;
+  padding: 30px;
 }
 
-.wds-common::after{
-    content: "";
-    position: absolute;
-    background: url("../images/quotation.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    bottom: 0px;
-    right: 20px;
-    width: 80px;
-    height: 80px;
-    mix-blend-mode: soft-light;
-    opacity: 0.5;
+.wds-common::after {
+  content: "";
+  position: absolute;
+  background: url("../images/quotation.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
 }
 
-.wds-head{
-    font-size: 24px;
-    font-weight: 700;
+.wds-head {
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.wds-content{
-    font-size: 16px;
-    font-weight: 400;
+.wds-content {
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.wds-content > span{
-    font-weight: 600;
+.wds-content > span {
+  font-weight: 600;
 }
 
-.wds-partition{
-    margin: 40px 0;
-    background-color: #E76A32;
-    width: 100%;
-    height: 1px;
+.wds-partition {
+  margin: 40px 0;
+  background-color: #e76a32;
+  width: 100%;
+  height: 1px;
 }
 
-.owtg-parent{
-    margin: 80px auto 60px;
+/* why donate section end */
+
+/* other ways to give section */
+
+.owtg-parent {
+  margin: 80px auto 60px;
 }
 
-.owtg-head{
-    font-size: 32px;
-    font-weight: 700;
-    color: #E76A32;
+.owtg-head {
+  font-size: 32px;
+  font-weight: 700;
+  color: #e76a32;
 }
 
-.owtg-content{
-    color: #133541;
+.owtg-content {
+  color: #133541;
 }
 
-.owtg-sub-head{
-    font-weight: 600;
+.owtg-sub-head {
+  font-weight: 600;
 }
 
-.owtg-sub-content>span{
-    color: #E76A32;
+.owtg-sub-content > span {
+  color: #e76a32;
 }
 
-.contact-parent{
-    margin: 60px auto;
+/* other ways to give section end */
+
+/* Contact us section */
+
+.contact-parent {
+  margin: 60px auto;
 }
 
-.jc-parent{
-    margin: 60px 0;
+.jc-parent {
+  margin: 60px 0;
 }
 
-.jc-content{
-    color: #133541;
-    font-weight: 600;
+.jc-content {
+  color: #133541;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.jc-btn {
+  background-color: #e76a32;
+  color: #fffcf4;
+  padding: 16px 32px;
+  font-size: 18px;
+  border: none;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 10px;
+}
+
+.jc-btn > img {
+  object-fit: contain;
+}
+
+/* Mini PC or laptop */
+@media (768px <= width <= 1024px) {
+  .donation-child {
+    width: auto;
+    padding-inline: 20px;
+  }
+}
+
+/* Tab view */
+@media (481px <= width <= 767px) {
+    .banner-sub-content {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    .donation-child {
+      width: auto;
+      padding-inline: 20px;
+    }
+    .wds-grid{
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+  }
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 480px) {
+  .donation-bg {
+    height: 450px;
+  }
+
+  .banner-sub-content {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .donation-banner-heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .ycm-head {
     font-size: 20px;
-}
+  }
 
-.jc-btn{
-    background-color: #E76A32;
-    color: #FFFCF4;
-    padding: 16px 32px;
-    font-size: 18px;
-    border: none;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-    gap: 10px;
-}
+  .ycm-content {
+    font-size: 16px;
+  }
 
-.jc-btn>img{
-    object-fit: contain;
+  .donation-child {
+    width: auto;
+    padding: 40px 20px;
+  }
+
+  .wds-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .wds-head {
+    font-size: 20px;
+  }
+
+  .wds-content {
+    font-size: 14px;
+  }
+
+  .owtg-parent,
+  .contact-parent,
+  .jc-parent {
+    margin: 40px auto;
+  }
+
+  .owtg-head {
+    font-size: 20px;
+  }
+
+  .jc-content {
+    font-size: 16px;
+  }
+
+  .jc-btn {
+    font-size: 14px;
+  }
+
+  .jc-btn > img {
+    width: 16px;
+    height: 16px;
+  }
 }
