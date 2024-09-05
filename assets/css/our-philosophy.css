@@ -13,6 +13,8 @@
   background: var(--primary-background-color);
 }
 
+/* Our philosophy banner section */
+
 .our-phi-parent,
 .detail-phi-parent {
   display: grid;
@@ -57,6 +59,10 @@
   margin: 0;
 }
 
+/* Our philosophy banner section end */
+
+/* Our philosophy small description section */
+
 .sm-desc-sec {
   background: var(--secondary-color);
   color: var(--text-color);
@@ -70,6 +76,10 @@
   font-size: 16px;
   font-weight: 700;
 }
+
+/* Our philosophy small description section end */
+
+/* Our philosophy details section */
 
 .detail-left-sec {
   color: var(--primary-color);
@@ -127,6 +137,9 @@
   color: var(--secondary-color);
   font-weight: 400 !important;
 }
+/* Our philosophy details section end */
+
+/* Our philosophy video section */
 
 .video-bg {
   background: #fff8e7;
@@ -189,10 +202,6 @@
   width: max-content;
 }
 
-.video-title-head:hover ~ .video-container {
-  background: #f00;
-}
-
 .thumbnail {
   position: relative;
 }
@@ -210,6 +219,9 @@
 .video-desc {
   font-size: 14px;
 }
+/* Our philosophy video section end */
+
+/* Our philosophy key to the heart section */
 
 .ktth-container {
   padding: 60px;
@@ -250,6 +262,9 @@
 .ktth-card-desc-list {
   font-weight: 700;
 }
+/* Our philosophy key to the heart section end */
+
+/* Our philosophy qr code section */
 
 .qr-code-section {
   background: #fff8e7;
@@ -296,13 +311,17 @@
   color: var(--secondary-color);
 }
 
+/* Our philosophy qr code section end */
+
+/* Responsive CSS */
+
 @media (max-width: 1440px){
   .video-sec-area{
     width: auto;
   }
 }
 
-/* tab view */
+/* tab, mini pc and laptop view */
 @media (768px <= width <= 1024px) {
   .our-phi-parent,
   .detail-phi-parent,
@@ -396,6 +415,10 @@
     width: 90%;
   }
 
+  .other-details{
+    font-size: 16px;
+  }
+
   .video-bg {
     padding: 16px;
   }
@@ -465,6 +488,10 @@
   .qr-code-img > div {
     width: 150px;
     height: 150px;
+  }
+
+  .qr-code-img > p{
+    font-size: 14px;
   }
 }
 

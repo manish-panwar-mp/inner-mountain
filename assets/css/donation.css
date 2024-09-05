@@ -186,6 +186,8 @@ h1 {
   object-fit: contain;
 }
 
+/* Responsive CSS */
+
 /* Mini PC or laptop */
 @media (768px <= width <= 1024px) {
   .donation-child {
