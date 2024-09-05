@@ -43,7 +43,7 @@
   margin: 0 0 20px;
 }
 
-.our-phi-head > span {
+.our-phi-head > span > span {
   color: var(--secondary-color);
 }
 
@@ -171,7 +171,7 @@
 .video-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 25px;
 }
 
 .video-container {
@@ -361,7 +361,7 @@
   .detail-phi-parent {
     grid-template-columns: 1fr;
     width: auto;
-    padding: 16px;
+    padding: 20px 16px 40px;
     gap: 10px;
   }
 
@@ -373,6 +373,11 @@
 
   .our-phi-head {
     font-size: 28px;
+    line-height: 40px;
+  }
+
+  .our-phi-head-sm{
+    color: var(--secondary-color);
   }
 
   .op-sm-border {
@@ -386,7 +391,7 @@
   }
 
   .sm-desc-sec {
-    padding: 16px;
+    padding: 20px 16px;
   }
 
   .sm-desc-sec-content {
@@ -427,7 +432,7 @@
   }
 
   .video-bg {
-    padding: 16px;
+    padding: 20px 16px 40px;
   }
 
   .video-sec-area {
@@ -444,6 +449,7 @@
 
   .video-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .ktth-container {
@@ -453,6 +459,10 @@
 
   .ktth-title {
     font-size: 24px;
+  }
+
+  .ktth-card {
+    margin: 40px 0;
   }
 
   .ktth-card {

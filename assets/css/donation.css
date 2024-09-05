@@ -216,7 +216,8 @@ h1 {
 
 @media (max-width: 480px) {
   .donation-bg {
-    min-height: 450px;
+    min-height: 400px;
+    max-height: 450px;
   }
 
   .banner-sub-content {
@@ -227,10 +228,12 @@ h1 {
   .donation-banner-heading {
     font-size: 28px;
     line-height: 40px;
+    margin-bottom: 12px;
   }
 
   .ycm-head {
     font-size: 20px;
+    margin: 12px 0;
   }
 
   .ycm-content {
