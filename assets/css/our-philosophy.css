@@ -77,9 +77,17 @@
   font-weight: 700;
 }
 
+.sm-desc-sec-content > span{
+  font-weight: 400;
+}
+
 /* Our philosophy small description section end */
 
 /* Our philosophy details section */
+
+.detail-phi-parent{
+  place-items: baseline;
+}
 
 .detail-left-sec {
   color: var(--primary-color);
@@ -224,7 +232,7 @@
 /* Our philosophy key to the heart section */
 
 .ktth-container {
-  padding: 60px;
+  padding: 20px 60px;
 }
 
 .ktth-desc {
@@ -314,10 +322,9 @@
 /* Our philosophy qr code section end */
 
 /* Responsive CSS */
-
-@media (max-width: 1440px){
+@media (1024px <= width <= 1440px){
   .video-sec-area{
-    width: auto;
+    width: min-content;
   }
 }
 
