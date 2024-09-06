@@ -5,12 +5,53 @@
   --text-color: #fffdf7;
 }
 
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Regular.otf"),
+    url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Medium.otf"),
+    url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Light.otf"),
+    url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Heavy.otf"),
+    url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Heavy.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba PuHuiTi";
+  src: url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Bold.otf"),
+    url("../fonts/alibaba-puhuiti/Alibaba-PuHuiTi-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
 .m-none {
   margin: 0 !important;
 }
 
 .our-phi-background {
   background: var(--primary-background-color);
+  font-family: "Alibaba PuHuiTi" !important;
 }
 
 /* Our philosophy banner section */
@@ -38,7 +79,7 @@
 .our-phi-head {
   font-size: 30px;
   font-weight: 700;
-  line-height: 54px;
+  line-height: 46px;
   color: var(--primary-color);
   margin: 0 0 20px;
 }
@@ -50,6 +91,7 @@
 .our-phi-content {
   color: var(--primary-color);
   font-size: 16px;
+  font-weight: 400;
 }
 
 .op-sm-border {
@@ -77,7 +119,7 @@
   font-weight: 700;
 }
 
-.sm-desc-sec-content > span{
+.sm-desc-sec-content > span {
   font-weight: 400;
 }
 
@@ -85,7 +127,7 @@
 
 /* Our philosophy details section */
 
-.detail-phi-parent{
+.detail-phi-parent {
   place-items: baseline;
 }
 
@@ -166,6 +208,7 @@
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  color: var(--primary-color);
 }
 
 .video-grid {
@@ -179,6 +222,7 @@
   padding: 20px;
   border-radius: 16px 0px 16px 0px;
   cursor: pointer;
+  color: var(--primary-color);
 }
 
 .video-container:hover {
@@ -238,6 +282,7 @@
 .ktth-desc {
   font-size: 20px;
   text-align: center;
+  color: var(--primary-color);
 }
 
 .ktth-card-container {
@@ -322,8 +367,8 @@
 /* Our philosophy qr code section end */
 
 /* Responsive CSS */
-@media (1024px <= width <= 1440px){
-  .video-sec-area{
+@media (1024px <= width <= 1440px) {
+  .video-sec-area {
     width: min-content;
   }
 }
@@ -376,7 +421,7 @@
     line-height: 40px;
   }
 
-  .our-phi-head-sm{
+  .our-phi-head-sm {
     color: var(--secondary-color);
   }
 
@@ -427,7 +472,7 @@
     width: 90%;
   }
 
-  .other-details{
+  .other-details {
     font-size: 16px;
   }
 
@@ -458,7 +503,7 @@
   }
 
   .ktth-title {
-    font-size: 24px;
+    font-size: 24px;    
   }
 
   .ktth-card {
@@ -507,13 +552,13 @@
     height: 150px;
   }
 
-  .qr-code-img > p{
+  .qr-code-img > p {
     font-size: 14px;
   }
 }
 
 @media (max-width: 380px) {
-  .video-title-head{
+  .video-title-head {
     font-size: 14px;
   }
 }

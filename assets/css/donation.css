@@ -8,9 +8,9 @@
 .donation-bg {
   background: url("../images/donation-bg.png");
   background-size: cover;
-  background-position: bottom;
+  background-position: center -50px;
   background-repeat: no-repeat;
-  height: 660px;
+  padding: 86px 0px 164px;
 }
 
 /* banner section */
@@ -74,7 +74,7 @@ h1 {
 
 .donation-child {
   width: 70%;
-  padding: 70px 0;
+  padding: 70px 0 40px;
   margin: 0px auto;
 }
 
@@ -161,7 +161,7 @@ h1 {
 }
 
 .jc-parent {
-  margin: 60px 0;
+  margin: 60px 0 40px;
 }
 
 .jc-content {
@@ -216,8 +216,9 @@ h1 {
 
 @media (max-width: 480px) {
   .donation-bg {
-    min-height: 400px;
-    max-height: 450px;
+    /* min-height: 400px;
+    max-height: 450px; */
+    padding: 30px 0 40px;
   }
 
   .banner-sub-content {
@@ -242,7 +243,7 @@ h1 {
 
   .donation-child {
     width: auto;
-    padding: 40px 20px;
+    padding: 40px 20px 0;
   }
 
   .wds-grid {
